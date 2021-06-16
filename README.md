@@ -1,5 +1,5 @@
 # LoginPage
- Login Page using PyQt5 and QtDesigner with some features, like changing theme from ligt mode to dark
+ Login Page using PyQt5 and QtDesigner with some features, like changing theme from light mode to dark
 
 ## **Preview ..**
 ![alt-text](https://github.com/Abdallah-Ibra/LoginPage/blob/main/preview.gif)
