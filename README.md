@@ -2,7 +2,7 @@
  Login Page using PyQt5 and QtDesigner with some features, like changing theme from ligt mode to dark
 
 ## **Preview ..**
-![alt-text](https://github.com/Abdallah-Ibra/LoginPage\preview.gif)
+![alt-text](https://github.com/Abdallah-Ibra/LoginPage/blob/main/preview.gif)
 
 
 ## **Notice ..**
