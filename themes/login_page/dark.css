@@ -1,0 +1,94 @@
+QPushButton#btn_login{
+	background-color: rgba(2,65,118,255);
+	color: rgba(255,255,255,200);
+	border-radius: 5px;
+}
+
+QPushButton#btn_login:pressed{
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: rgba(2,65,118,100);
+	background-position: calc(100% - 10px)center;
+}
+
+QPushButton#btn_login:hover{
+	background-color:rgba(2,65,118,200);
+}
+
+QPushButton#btn_close{
+	background:transparent;
+	color: rgba(207, 0, 15, 1);
+}
+
+QPushButton#btn_close:hover{
+	color: rgba(217, 30, 24, 1);
+}
+
+QPushButton#btn_close:pressed{
+	padding-left: 2px;
+	padding-bottom: 2px;
+	background-position: calc(100% - 10px)center;
+}
+
+QPushButton#btn_min{
+	background:transparent;
+	color:rgba(247, 202, 24, 1);
+}
+
+QPushButton#btn_min:hover{
+	color:rgba(245, 229, 27, 1);
+}
+
+QPushButton#btn_min:pressed{
+	padding-left: 2px;
+	padding-bottom: 2px;
+	background-position: calc(100% - 10px)center;
+}
+
+QPushButton#btn_theme{
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+
+QLabel#label_title{
+    background: transparent;
+    color: rgba(52, 73, 94, 1);
+}
+
+QLineEdit{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom-color: rgba(46,82,101,255);
+    color: rgb(255,255,255);
+    padding-bottom: 7px;
+    padding-left:5px; 
+}
+
+QLabel#label_forgot{
+	color: rgba(255,255,255,150);
+}
+
+QLabel#label_forgot:hover{
+	color: rgba(30, 139, 195, 1);
+}
+
+QLabel#label_logo{
+	color: rgba(0,125,236,255);
+	padding-top: 10px;
+}
+
+QLabel#label_container{
+    background-color: rgba(16,30,41,240);
+    border-radius: 10px;
+}
+
+QPushButton#btn_show{
+	background: transparent;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton#btn_show:pressed{
+	padding-right: 2px;
+	padding-top: 2px;
+	background-position: calc(100% - 10px)center;
+}

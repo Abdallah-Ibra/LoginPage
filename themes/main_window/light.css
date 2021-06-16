@@ -1,0 +1,52 @@
+/* frame_container - frame_title[btn_close - btn_min - btn_theme - label_title] - frame_body[label]   */
+
+QFrame#frame_container{
+    background-color: rgba(170, 170, 170,230);
+    border-radius: 10px;
+}
+
+QPushButton#btn_close{
+	background:transparent;
+	color: rgba(207, 0, 15, 1);
+}
+
+QPushButton#btn_close:hover{
+	color: rgba(217, 30, 24, 1);
+}
+
+QPushButton#btn_close:pressed{
+	padding-left: 2px;
+	padding-bottom: 2px;
+	background-position: calc(100% - 10px)center;
+}
+
+QPushButton#btn_min{
+	background:transparent;
+	color:rgba(247, 202, 24, 1);
+}
+
+QPushButton#btn_min:hover{
+	color:rgba(245, 229, 27, 1);
+}
+
+QPushButton#btn_min:pressed{
+	padding-left: 2px;
+	padding-bottom: 2px;
+	background-position: calc(100% - 10px)center;
+}
+
+QPushButton#btn_theme{
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+QLabel#label_title{
+    background: transparent;
+    color: rgb(0, 41, 54);
+    padding-left: 7px;;
+}
+
+QLabel#label{
+    background: transparent;
+    color: rgb(0, 41, 54);
+}
